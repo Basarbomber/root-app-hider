@@ -1,21 +1,15 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+🤖 Built with Google AI Studio (Gemini)
+This project was entirely designed and generated using Google AI Studio (Gemini) through prompt-based Vibe Coding. The KI structured the root-level component toggles, managed the app list parsing, and created a clean user interface from scratch.
 
-# Run and deploy your AI Studio app
+🚀 Features
+True App Hiding (Root): Completely hides applications at the system level rather than just disabling or freezing them.
 
-This contains everything you need to run your app locally.
+Global App List: Automatically scans and detects every single package and app installed on the device.
 
-View your app in AI Studio: https://ai.studio/apps/459ad7f4-6b45-43b5-90eb-0d8005f30297
+Instant Toggle System: Hide or restore any app instantly with a simple switch.
 
-## Run Locally
+Magisk & APatch Compatible: Works flawlessly via standard su environment execution.
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+Clean UI: A lightweight and fast interface optimized for quick privacy management.
 
-
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+⚠️ Disclaimer: This application requires Root access. Deactivating or hiding critical system components (like UI or settings) can cause bootloops. Use with caution!
