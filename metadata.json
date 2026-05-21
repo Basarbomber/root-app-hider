@@ -1,0 +1,6 @@
+{
+  "name": "Root App Hider",
+  "description": "Eine professionelle Root-Anwendung, um installierte Apps vollständig aus der Sicht anderer Apps und des Launchers zu verstecken.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
